@@ -333,7 +333,6 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 2em;
-  margin-left: -180px;
   -webkit-animation: horror-animation 5s infinite;
   -moz-animation: horror-animation 5s infinite;
   -o-animation: horror-animation 5s infinite;
@@ -892,7 +891,7 @@ nav ul li {
   transition: 0.7s all;
 }
 
-nav ul li:hover {
+nav ul li a:hover {
   background-color: #088;
 }
 
@@ -902,8 +901,9 @@ nav ul li a {
   padding: 30px;
 }
 
-li h1 {
-  position: absolute;
+.title {
+  padding-top: 15px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
