@@ -25,7 +25,7 @@ nav ul li{
   display: inline-block;
   transition: 0.7s all;
 }
-nav ul li:hover{
+nav ul li a:hover{
   background-color:#088;
 }
 nav ul li a{
@@ -34,8 +34,7 @@ nav ul li a{
   padding: 30px;
 }
 
-li {
-  h1 {
-    position: absolute;
-  }
+.title{
+  padding-top: 15px;
+  text-align: center;
 }
