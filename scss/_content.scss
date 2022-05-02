@@ -1,6 +1,6 @@
 h2{
   text-align: center;
-  font-size: xxx-large;
+  font-size: 5rem;
   text-shadow: lime;
 }
 
@@ -9,11 +9,17 @@ h3{
   font-size: small;
 }
 
+h4{
+  text-decoration: underline;
+}
+
 article{
   text-align: center;
   display: inline-block;
-  margin: 50px;
-  padding: 50px;
+  margin: 3rem;
+  padding: 3rem;
+  margin-top: 0;
+  margin-bottom: 0;
 
 }
 
@@ -48,7 +54,7 @@ section a:hover{
   border: solid #db70d2 3px;
   border-radius: 35px;
   border-bottom: transparent;
-
+  margin-bottom: 3rem;
 }
 
 /*glow animation */
@@ -58,10 +64,10 @@ h2 {
           0 0 5px rgba(255, 255, 255, 0.34),
           0 0 10px rgba(255, 255, 255, 0.39),
           0 0 20px rgba(255, 255, 255, 0.24),
-          0 0 40px #0ff,
-          0 0 80px #0ff,
-          0 0 90px #0ff,
-          0 0 100px #0ff,
-          0 0 150px #0ff;
+          0 0 40px lime,
+          0 0 80px lime,
+          0 0 90px lime,
+          0 0 100px lime,
+          0 0 150px lime;
 }
 
