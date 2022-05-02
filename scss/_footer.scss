@@ -1,19 +1,15 @@
-footer {
+#footer {
   display: flex;
-  text-align: center;
-  padding: 3px;
-  font-size: .75rem;
-  width: 100vw;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+}
+.toplink{
+  position:absolute;
+  right:2%;
+  font-size: 40px;
 }
 
 .copy{
-
-}
-
-.toplink{
-  float: right;
-}
-
-.tel{
-  font-size: 1.5rem;
+  margin-left: .5%;
 }

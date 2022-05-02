@@ -105,12 +105,14 @@ img {
   background-color: transparent;
   border-radius: 8px;
   min-width: 320px;
+  padding: 10px 10px;
 }
 
 .upper-part {
   position: relative;
   display: flex;
   align-items: center;
+  margin-bottom: 12px;
   height: 40px;
   overflow: hidden;
 }
@@ -156,4 +158,3 @@ img {
   font-size: 15px;
   text-align: center;
 }
-
