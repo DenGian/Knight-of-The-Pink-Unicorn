@@ -1,3 +1,51 @@
-@import "../homepage/_fog.scss";
 @import "_scary.scss";
 @import "_navbar.scss";
+
+body {
+  background-image: url("resources/background4.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  padding-top: 5%;
+  justify-content: center;
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+h3 {
+  text-align: center;
+}
+
+.overlay-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.5;
+}
+
+.brand-title {
+  font-size: 40px;
+}
+
+.card-title {
+  font-size: 25px;
+  color: rebeccapurple;
+}
+
+.card-text {
+  font-size: 20px;
+  color: rebeccapurple;
+}
+
+
