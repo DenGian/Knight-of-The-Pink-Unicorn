@@ -1,22 +1,19 @@
-#footer {
+footer {
   display: flex;
-  align-items: center;
-  width: 100%;
-  height: 60px;
-  padding: 0;
-}
-.toplink{
-  position:absolute;
-  right:2%;
-  font-size: 40px;
+  text-align: center;
+  padding: 3px;
+  font-size: .75rem;
+  width: 100vw;
 }
 
 .copy{
-  position: absolute;
-  left: -5%;
+
+}
+
+.toplink{
+  float: right;
 }
 
 .tel{
-  position: relative;
-  left: 45%;
+  font-size: 1.5rem;
 }

@@ -1,10 +1,14 @@
 /*navbar from https://codepen.io/WebDevSimplified/pen/LqKQRK*/
+* {
+  box-sizing: border-box;
+}
+
 .navbar {
   display: flex;
   position: relative;
   justify-content: space-between;
   align-items: center;
-  font-size: 20px;
+  font-size: 1rem;
   color: darkred;
 }
 
@@ -15,7 +19,7 @@
 
 .navbar-links {
   height: 100%;
-  font-size: 12px;
+  font-size: .9rem;
 }
 
 .navbar-links ul {
@@ -31,7 +35,7 @@
 .navbar-links li a {
   display: block;
   text-decoration: none;
-  padding: 1rem;
+  padding: 1.2rem;
 }
 
 
@@ -42,8 +46,8 @@
   display: none;
   flex-direction: column;
   justify-content: space-between;
-  width: 30px;
-  height: 21px;
+  width: 2.25rem;
+  height: 1rem;
 }
 
 .toggle-button .bar {
