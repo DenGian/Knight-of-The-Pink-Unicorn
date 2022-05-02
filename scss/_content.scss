@@ -12,15 +12,16 @@ h3{
 article{
   text-align: center;
   display: inline-block;
+  margin: 50px;
+  padding: 50px;
+
 }
 
 p{
   font-size: large;
-  margin: 50px;
-  padding: 50px;
 }
-strong{
-  color: pink;
+strong, em{
+  color: lime;
 }
 
 section{
@@ -36,25 +37,12 @@ section{
 section a{
   color: #efcb3f;
 }
+
 section a:hover{
   color: lime;
 }
 
 
-article{
-  font-size: 12px;
-  margin: 0;
-}
-
-strong{
-  color: pink;
-}
-
-section{
-  display: inline-block;
-  text-align: center;
-  font-size: 15px;
-}
 
 .full-logo{
   border: solid #db70d2 3px;
@@ -76,3 +64,4 @@ h2 {
           0 0 100px #0ff,
           0 0 150px #0ff;
 }
+

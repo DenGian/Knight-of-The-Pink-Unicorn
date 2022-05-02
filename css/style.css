@@ -105,6 +105,7 @@ img {
 .navbar-links {
   height: 100%;
   font-size: 12px;
+  margin-right: 2%;
 }
 
 .navbar-links ul {
@@ -718,12 +719,11 @@ img {
   align-items: center;
   width: 100%;
   height: 50px;
-  margin-top: 5px;
 }
 
 .toplink {
-  position: absolute;
-  right: 2%;
+  position: relative;
+  left: 45rem;
   font-size: 40px;
 }
 
@@ -733,7 +733,7 @@ img {
 
 .tel {
   position: relative;
-  left: 5rem;
+  left: 15rem;
 }
 
 * {
@@ -899,16 +899,16 @@ h3 {
 article {
   text-align: center;
   display: inline-block;
-}
-
-p {
-  font-size: large;
   margin: 50px;
   padding: 50px;
 }
 
-strong {
-  color: pink;
+p {
+  font-size: large;
+}
+
+strong, em {
+  color: lime;
 }
 
 section {
@@ -929,21 +929,6 @@ section a:hover {
   color: lime;
 }
 
-article {
-  font-size: 12px;
-  margin: 0;
-}
-
-strong {
-  color: pink;
-}
-
-section {
-  display: inline-block;
-  text-align: center;
-  font-size: 15px;
-}
-
 .full-logo {
   border: solid #db70d2 3px;
   border-radius: 35px;
@@ -956,4 +941,4 @@ h2 {
   text-shadow: 0 0 5px rgba(255, 255, 255, 0.34), 0 0 10px rgba(255, 255, 255, 0.39), 0 0 20px rgba(255, 255, 255, 0.24), 0 0 40px #0ff, 0 0 80px #0ff, 0 0 90px #0ff, 0 0 100px #0ff, 0 0 150px #0ff;
 }
 
-/*# sourceMappingURL=style.css.map */
+
