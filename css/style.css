@@ -948,4 +948,11 @@ h2 {
   text-shadow: 0 0 5px rgba(255, 255, 255, 0.34), 0 0 10px rgba(255, 255, 255, 0.39), 0 0 20px rgba(255, 255, 255, 0.24), 0 0 40px lime, 0 0 80px lime, 0 0 90px lime, 0 0 100px lime, 0 0 150px lime;
 }
 
+.tldr {
+  color: red;
+  font-size: large;
+  text-decoration: underline;
+  text-shadow: none;
+}
+
 /*# sourceMappingURL=style.css.map */
