@@ -665,6 +665,7 @@ a:hover {
   align-items: center;
   width: 100%;
   height: 60px;
+  padding: 0;
 }
 
 .toplink {
@@ -674,7 +675,13 @@ a:hover {
 }
 
 .copy {
-  margin-left: 0.5%;
+  position: absolute;
+  left: -5%;
+}
+
+.tel {
+  position: relative;
+  left: 45%;
 }
 
 * {

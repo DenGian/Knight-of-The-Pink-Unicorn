@@ -3,6 +3,7 @@
   align-items: center;
   width: 100%;
   height: 60px;
+  padding: 0;
 }
 .toplink{
   position:absolute;
@@ -11,5 +12,11 @@
 }
 
 .copy{
-  margin-left: .5%;
+  position: absolute;
+  left: -5%;
+}
+
+.tel{
+  position: relative;
+  left: 45%;
 }
