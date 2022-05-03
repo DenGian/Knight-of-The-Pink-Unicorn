@@ -1,0 +1,24 @@
+/*background animation*/
+body {
+  height: 100vh;
+  width: 100vw;
+  color: red;
+  font-family: "Segoe UI Emoji";
+  background: linear-gradient(-45deg, rgba(82, 80, 80, 0.96), rgb(33, 32, 32), rgba(66, 64, 64, 0.93));
+  background-size: 400% 400%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  animation: gradient 10s ease infinite;
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+}
+

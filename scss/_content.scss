@@ -1,0 +1,79 @@
+h2{
+  text-align: center;
+  font-size: 5rem;
+  text-shadow: lime;
+}
+
+h3{
+  text-decoration: underline;
+  font-size: small;
+}
+
+h4{
+  text-decoration: underline;
+}
+
+article{
+  text-align: center;
+  display: inline-block;
+  margin: 3rem;
+  padding: 3rem;
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
+
+p{
+  font-size: large;
+}
+strong, em{
+  color: lime;
+}
+
+section{
+  display: inline-block;
+  text-align: center;
+  margin-top: 2%;
+  font-size: 15px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 5%;
+}
+
+section a{
+  color: #efcb3f;
+}
+
+section a:hover{
+  color: lime;
+}
+
+
+
+.full-logo{
+  border: solid #db70d2 3px;
+  border-radius: 35px;
+  border-bottom: transparent;
+  margin-bottom: 3rem;
+}
+
+/*glow animation */
+h2 {
+  color: darkslategray;
+  text-shadow:
+          0 0 5px rgba(255, 255, 255, 0.34),
+          0 0 10px rgba(255, 255, 255, 0.39),
+          0 0 20px rgba(255, 255, 255, 0.24),
+          0 0 40px lime,
+          0 0 80px lime,
+          0 0 90px lime,
+          0 0 100px lime,
+          0 0 150px lime;
+}
+
+.tldr{
+  color: red;
+  font-size: large;
+  text-decoration: underline;
+  text-shadow: none;
+}
