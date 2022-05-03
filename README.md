@@ -26,45 +26,45 @@ as a first group project. Our goal with this project were to following:
 
 ### Perfection is not a detail
 - [ ] All buttons and links work
-- [ ] All elements work and are complete (menu, lists, images, ...)
-- [ ] Everything on the page has a function, a reason to be there
+- [x] All elements work and are complete (menu, lists, images, ...)
+- [x] Everything on the page has a function, a reason to be there
 - [ ] No dead links
-- [ ] English and dutch are not mixed
-- [ ] No spelling errors
-- [ ] No grammar errors
-- [ ] The website is deployed somewhere
-- [ ] Everything is relevant (no image of a barber on the website of a baker)
+- [x] English and dutch are not mixed
+- [x] No spelling errors
+- [x] No grammar errors
+- [x] The website is deployed somewhere
+- [x] Everything is relevant (no image of a barber on the website of a baker)
 
 ### Content
 - [ ] Openinghours (if needed)
-- [ ] Address (if needed)
-- [ ] Clickable email
+- [x] Address (if needed)
+- [x] Clickable email
 
 ### Text life matters aka typography is real
-- [ ] Some words have a different color
-- [ ] We aren't using a default font, cause it's not 2004
+- [x] Some words have a different color
+- [x] We aren't using a default font, cause it's not 2004
 - [ ] Contrast is not too low
-- [ ] Typographic hierachy is correct
+- [x] Typographic hierachy is correct
 - [ ] Text has a clear intro, middle, conclusion
 - [ ] Intro, middle, conclusion is style correctly
 
 ### Style
 - [ ] Black is almost black but not #000
 - [ ] White is almost white but not #fff
-- [ ] The styling is consistent
-- [ ] It is not four totally different pages thrown together
-- [ ] Everything works even if you are colorblind
+- [x] The styling is consistent
+- [x] It is not four totally different pages thrown together
+- [x] Everything works even if you are colorblind
 
 ### Not everyone has free 4G aka speed matters
-- [ ] Pictures are not too heavy
-- [ ] Pictures are not pixelated
+- [x] Pictures are not too heavy
+- [x] Pictures are not pixelated
 
 ### A company wants to be found/SEO
-- [ ] All the keywords this company wants to be found on are on the page
-- [ ] Page has an H1 tag
-- [ ] Page has keyword meta tags
-- [ ] Page has a title with the keywords in
-- [ ] Page loads fast
+- [x] All the keywords this company wants to be found on are on the page
+- [x] Page has an H1 tag
+- [x] Page has keyword meta tags
+- [x] Page has a title with the keywords in
+- [x] Page loads fast
 
 ### Keep your workspace clean
 - [ ] No unused files in the repo

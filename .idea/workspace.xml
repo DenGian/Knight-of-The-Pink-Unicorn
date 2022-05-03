@@ -4,15 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="eeba7b63-4535-42d7-8f43-8e919c36b971" name="Changes" comment="" />
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <list default="true" id="ac33f949-4301-42c3-b547-016117364fb7" name="Changes" comment="" />
+=======
+    <list default="true" id="af136fb0-012f-410a-8f70-5945b49a8c00" name="Changes" comment="" />
+>>>>>>> 03db757e5e9258df64f5bfe0f5a1d210ac867762
+=======
+    <list default="true" id="eeba7b63-4535-42d7-8f43-8e919c36b971" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+>>>>>>> c28e0c9bb0a230b4f36e0cc134caf6fc50dd5898
+>>>>>>> 0aee361818f548dac3f382f8470ddc6fa1e2c5bc
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
+=======
   <component name="ComposerSettings">
     <execution />
   </component>
+>>>>>>> 03db757e5e9258df64f5bfe0f5a1d210ac867762
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -48,7 +65,11 @@
       <option name="presentableId" value="Default" />
       <updated>1651562747822</updated>
       <workItem from="1651562749247" duration="198000" />
+<<<<<<< HEAD
+      <workItem from="1651562963512" duration="19650000" />
+=======
       <workItem from="1651562963512" duration="18587000" />
+>>>>>>> 03db757e5e9258df64f5bfe0f5a1d210ac867762
     </task>
     <servers />
   </component>
@@ -65,5 +86,9 @@
         </entry>
       </map>
     </option>
+<<<<<<< HEAD
+    <option name="oldMeFiltersMigrated" value="true" />
+=======
+>>>>>>> 03db757e5e9258df64f5bfe0f5a1d210ac867762
   </component>
 </project>
