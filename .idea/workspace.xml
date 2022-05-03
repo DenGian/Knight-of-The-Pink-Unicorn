@@ -4,12 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="ac33f949-4301-42c3-b547-016117364fb7" name="Changes" comment="" />
+=======
+    <list default="true" id="af136fb0-012f-410a-8f70-5945b49a8c00" name="Changes" comment="" />
+>>>>>>> 03db757e5e9258df64f5bfe0f5a1d210ac867762
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+>>>>>>> 03db757e5e9258df64f5bfe0f5a1d210ac867762
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -45,7 +55,11 @@
       <option name="presentableId" value="Default" />
       <updated>1651562747822</updated>
       <workItem from="1651562749247" duration="198000" />
+<<<<<<< HEAD
       <workItem from="1651562963512" duration="19650000" />
+=======
+      <workItem from="1651562963512" duration="18587000" />
+>>>>>>> 03db757e5e9258df64f5bfe0f5a1d210ac867762
     </task>
     <servers />
   </component>
@@ -62,6 +76,9 @@
         </entry>
       </map>
     </option>
+<<<<<<< HEAD
     <option name="oldMeFiltersMigrated" value="true" />
+=======
+>>>>>>> 03db757e5e9258df64f5bfe0f5a1d210ac867762
   </component>
 </project>

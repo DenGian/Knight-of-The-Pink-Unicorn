@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI Emoji";
+}
+
+body, html {
+  height: 100%;
+}
+
+.back01 {
+  background-image: url("../images/hunter.jpg");
+  min-height: 100%;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:lime;
+}
+
+.back02 {
+  background-image: url("../images/hunters.jpeg");
+  min-height: 400px;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.back03 {
+  background-image: url("../images/jumpscare.jpg");
+  min-height: 500px;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.end {
+  background:black;
+  min-height: 100%;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section {
+  background: rgb(0, 0, 0); /*this is not black, okay hihi*/
+  padding: 1.5rem 3rem;
+  text-align: center;
+}
+
+.center {
+  display: grid;
+  place-items: center;
+  margin:0;
+}
+
+.title {
+  font-weight: normal;
+  background: rgba(255, 255, 255, .3);
+  border-radius: 1px;
+  font-size: 1.5rem;
+  padding: 1.5rem 4rem;
+  box-shadow: 0px 5px 22px 6px rgba(255,0,0,0.42);
+}
+
+.Hunters {
+  font-weight: bold;
+  font-family: Optima, sans-serif;
+  position: relative;
+}
+
+.Hunters:before {
+  content: 'Hunters';
+  color: rgba(220, 0, 0, 0.5);
+  position: absolute;
+  left: 2px;
+  top: 2px;
+}
+
+.Hunters:after {
+  content: 'Hunters';
+  color: darkred;
+  position: absolute;
+  left: -2px;
+  top: -2px;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+.end-title {
+  padding: 0.75em 2em;
+}
+
+@media only screen and (max-width: 800px) {
+  .back01, .back02, .back03 {
+    background-attachment: scroll;
+  }
+}
+.text{
+  color:lime;
+}
