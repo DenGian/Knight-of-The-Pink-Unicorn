@@ -12,6 +12,7 @@ body {
   background-attachment: fixed;
   animation: gradient 10s ease infinite;
 }
+
 @keyframes gradient {
   0% {
     background-position: 0% 50%;
@@ -23,7 +24,6 @@ body {
     background-position: 0% 50%;
   }
 }
-
 a {
   color: red;
   text-decoration: none;
@@ -118,344 +118,6 @@ img {
   list-style: none;
 }
 
-<<<<<<< HEAD:homepage/style.css
-/* ---------- Keyframe Layer 1 ---------- */
-@-webkit-keyframes foglayer_01_opacity {
-  0% {
-    opacity: 0.1;
-  }
-  22% {
-    opacity: 0.5;
-  }
-  40% {
-    opacity: 0.28;
-  }
-  58% {
-    opacity: 0.4;
-  }
-  80% {
-    opacity: 0.16;
-  }
-  100% {
-    opacity: 0.1;
-  }
-}
-@-moz-keyframes foglayer_01_opacity {
-  0% {
-    opacity: 0.1;
-  }
-  22% {
-    opacity: 0.5;
-  }
-  40% {
-    opacity: 0.28;
-  }
-  58% {
-    opacity: 0.4;
-  }
-  80% {
-    opacity: 0.16;
-  }
-  100% {
-    opacity: 0.1;
-  }
-}
-@-o-keyframes foglayer_01_opacity {
-  0% {
-    opacity: 0.1;
-  }
-  22% {
-    opacity: 0.5;
-  }
-  40% {
-    opacity: 0.28;
-  }
-  58% {
-    opacity: 0.4;
-  }
-  80% {
-    opacity: 0.16;
-  }
-  100% {
-    opacity: 0.1;
-  }
-}
-@keyframes foglayer_01_opacity {
-  0% {
-    opacity: 0.1;
-  }
-  22% {
-    opacity: 0.5;
-  }
-  40% {
-    opacity: 0.28;
-  }
-  58% {
-    opacity: 0.4;
-  }
-  80% {
-    opacity: 0.16;
-  }
-  100% {
-    opacity: 0.1;
-  }
-}
-/* ---------- Keyframe Layer 2 ---------- */
-@-webkit-keyframes foglayer_02_opacity {
-  0% {
-    opacity: 0.5;
-  }
-  25% {
-    opacity: 0.2;
-  }
-  50% {
-    opacity: 0.1;
-  }
-  80% {
-    opacity: 0.3;
-  }
-  100% {
-    opacity: 0.5;
-  }
-}
-@-moz-keyframes foglayer_02_opacity {
-  0% {
-    opacity: 0.5;
-  }
-  25% {
-    opacity: 0.2;
-  }
-  50% {
-    opacity: 0.1;
-  }
-  80% {
-    opacity: 0.3;
-  }
-  100% {
-    opacity: 0.5;
-  }
-}
-@-o-keyframes foglayer_02_opacity {
-  0% {
-    opacity: 0.5;
-  }
-  25% {
-    opacity: 0.2;
-  }
-  50% {
-    opacity: 0.1;
-  }
-  80% {
-    opacity: 0.3;
-  }
-  100% {
-    opacity: 0.5;
-  }
-}
-@keyframes foglayer_02_opacity {
-  0% {
-    opacity: 0.5;
-  }
-  25% {
-    opacity: 0.2;
-  }
-  50% {
-    opacity: 0.1;
-  }
-  80% {
-    opacity: 0.3;
-  }
-  100% {
-    opacity: 0.5;
-  }
-}
-/* ---------- Keyframe Layer 3 ---------- */
-@-webkit-keyframes foglayer_03_opacity {
-  0% {
-    opacity: 0.8;
-  }
-  27% {
-    opacity: 0.2;
-  }
-  52% {
-    opacity: 0.6;
-  }
-  68% {
-    opacity: 0.3;
-  }
-  100% {
-    opacity: 0.8;
-  }
-}
-@-moz-keyframes foglayer_03_opacity {
-  0% {
-    opacity: 0.8;
-  }
-  27% {
-    opacity: 0.2;
-  }
-  52% {
-    opacity: 0.6;
-  }
-  68% {
-    opacity: 0.3;
-  }
-  100% {
-    opacity: 0.8;
-  }
-}
-@-o-keyframes foglayer_03_opacity {
-  0% {
-    opacity: 0.8;
-  }
-  27% {
-    opacity: 0.2;
-  }
-  52% {
-    opacity: 0.6;
-  }
-  68% {
-    opacity: 0.3;
-  }
-  100% {
-    opacity: 0.8;
-  }
-}
-@keyframes foglayer_03_opacity {
-  0% {
-    opacity: 0.8;
-  }
-  27% {
-    opacity: 0.2;
-  }
-  52% {
-    opacity: 0.6;
-  }
-  68% {
-    opacity: 0.3;
-  }
-  100% {
-    opacity: 0.8;
-  }
-}
-/* ---------- Keyframe moveMe ---------- */
-@-webkit-keyframes foglayer_moveme {
-  0% {
-    left: 0;
-  }
-  100% {
-    left: -100%;
-  }
-}
-@-moz-keyframes foglayer_moveme {
-  0% {
-    left: 0;
-  }
-  100% {
-    left: -100%;
-  }
-}
-@-o-keyframes foglayer_moveme {
-  0% {
-    left: 0;
-  }
-  100% {
-    left: -100%;
-  }
-}
-@keyframes foglayer_moveme {
-  0% {
-    left: 0;
-  }
-  100% {
-    left: -100%;
-  }
-}
-@media only screen and (min-width: 280px) and (max-width: 767px) {
-  #foglayer_01 .image01, #foglayer_01 .image02,
-#foglayer_02 .image01, #foglayer_02 .image02,
-#foglayer_03 .image01, #foglayer_03 .image02 {
-    width: 100%;
-  }
-}
-/*navbar from https://codepen.io/WebDevSimplified/pen/LqKQRK*/
-.navbar {
-  display: flex;
-  position: relative;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 20px;
-}
-
-.brand-title {
-  margin: 0.5rem;
-  margin-left: 35%;
-  font-size: 40px;
-}
-
-.navbar-links {
-  height: 100%;
-  font-size: 25px;
-}
-
-.navbar-links ul {
-  display: flex;
-  margin: 0;
-  padding: 0;
-}
-
-.navbar-links li {
-  list-style: none;
-}
-
-.navbar-links li a {
-  display: block;
-  text-decoration: none;
-  padding: 1rem;
-}
-
-.toggle-button {
-  position: absolute;
-  top: 0.75rem;
-  right: 1rem;
-  display: none;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 30px;
-  height: 21px;
-}
-
-.toggle-button .bar {
-  height: 3px;
-  width: 100%;
-  border-radius: 10px;
-}
-
-@media (max-width: 800px) {
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .toggle-button {
-    display: flex;
-  }
-
-  .navbar-links {
-    display: none;
-    width: 100%;
-  }
-
-  .navbar-links ul {
-    width: 100%;
-    flex-direction: column;
-  }
-
-  .navbar-links ul li {
-    text-align: center;
-  }
-
-=======
 .navbar-links li a {
   display: block;
   text-decoration: none;
@@ -503,7 +165,6 @@ img {
     text-align: center;
   }
 
->>>>>>> 7ed8a5d6eb5dc4f824858bc1b0d088327a78ffb4:css/style.css
   .navbar-links ul li a {
     padding: 0.5rem 1rem;
   }
@@ -512,17 +173,12 @@ img {
     display: flex;
   }
 }
-<<<<<<< HEAD:homepage/style.css
-body {
-  background-color: #212121;
-=======
 .logo {
   margin-right: -30%;
   margin-left: 1.5%;
   border-radius: 35%;
   border: darkred solid 2px;
   background-color: transparent;
->>>>>>> 7ed8a5d6eb5dc4f824858bc1b0d088327a78ffb4:css/style.css
 }
 
 .brand-title {
@@ -1298,5 +954,7 @@ h2 {
   text-decoration: underline;
   text-shadow: none;
 }
+
+/*# sourceMappingURL=style.css.map */
 
 /*# sourceMappingURL=style.css.map */
