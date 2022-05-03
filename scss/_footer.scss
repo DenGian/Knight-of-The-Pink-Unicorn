@@ -2,14 +2,19 @@
   display: flex;
   align-items: center;
   width: 100%;
-  height: 60px;
+  height: 50px;
 }
 .toplink{
-  position:absolute;
-  right:2%;
+  position: relative;
+  left:55rem;
   font-size: 40px;
 }
 
 .copy{
   margin-left: .5%;
+}
+
+.tel{
+  position: relative;
+  left: 20rem;
 }

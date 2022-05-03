@@ -4,7 +4,7 @@
   position: relative;
   justify-content: space-between;
   align-items: center;
-  font-size: 20px;
+  font-size: 1rem;
   color: darkred;
 }
 
@@ -16,6 +16,7 @@
 .navbar-links {
   height: 100%;
   font-size: 12px;
+  margin-right: 2%;
 }
 
 .navbar-links ul {
@@ -92,15 +93,6 @@
   border: darkred solid 2px;
   background-color: transparent;
 }
-
-
-
-
-
-
-
-
-
 
 
 
