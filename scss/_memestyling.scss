@@ -1,8 +1,5 @@
-@import "_scary.scss";
-@import "_navbar.scss";
-
 body {
-  background-image: url("resources/background4.webp");
+  background-image: url("../memepage/resources/background4.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -15,8 +12,8 @@ section {
 }
 
 .responsive {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 h3 {
@@ -48,4 +45,12 @@ h3 {
   color: rebeccapurple;
 }
 
+a {
+  color: red;
+  text-decoration: none;
+}
 
+a:hover {
+  background: #555;
+  color: lime;
+}
