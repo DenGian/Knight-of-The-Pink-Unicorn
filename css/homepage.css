@@ -118,8 +118,7 @@ img {
 .toggle-button {
   position: absolute;
   top: 0.75rem;
-  right: 1rem;
-  display: none;
+  left: 8rem;
   flex-direction: column;
   justify-content: space-between;
   width: 30px;
@@ -128,7 +127,8 @@ img {
 
 .toggle-button .bar {
   height: 3px;
-  width: 90%;
+  width: 100%;
+  background-color: red;
   border-radius: 10px;
 }
 
