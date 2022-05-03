@@ -119,6 +119,7 @@ img {
   position: absolute;
   top: 0.75rem;
   left: 8rem;
+  display: none;
   flex-direction: column;
   justify-content: space-between;
   width: 30px;
@@ -719,6 +720,7 @@ img {
 }
 
 .copy {
+  color: red;
   margin-left: 0.5%;
   color: red;
 }
