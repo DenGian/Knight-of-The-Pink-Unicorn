@@ -1,4 +1,4 @@
-footer {
+#footer {
   display: flex;
   align-items: center;
   width: 100%;
@@ -9,17 +9,14 @@ footer {
   right: 10%;
   font-size: 40px;
 }
-
 .copy{
   color: red;
   margin-left: 5%;
 }
-
 .tel{
   position: absolute;
-  right: 46%;
+  right:46%;
 }
-
 .mail{
   position: absolute;
   right: 13%;

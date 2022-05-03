@@ -1,0 +1,61 @@
+body {
+  background-image: url("../images/memebackground1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  padding-top: 5%;
+  justify-content: center;
+  overflow: auto;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+h3 {
+  text-align: center;
+}
+
+.overlay-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.5;
+}
+
+.brand-title {
+  font-size: 45px;
+}
+
+.card-title {
+  font-size: 35px;
+  color: red;
+}
+
+.card-text {
+  font-size: 25px;
+  color: red;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
+
+a:hover {
+  background: #555;
+  color: lime;
+}
+
+em{
+  color: lime;
+}
