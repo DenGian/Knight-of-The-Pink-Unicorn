@@ -650,6 +650,11 @@ footer {
   right: 46%;
 }
 
+.mail {
+  position: absolute;
+  right: 34%;
+}
+
 body {
   background-image: url("../images/memebackground1.jpg");
   background-repeat: no-repeat;
