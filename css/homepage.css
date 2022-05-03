@@ -706,7 +706,7 @@ img {
     left: 50%;
   }
 }
-#footer {
+footer {
   display: flex;
   align-items: center;
   width: 100%;
@@ -714,8 +714,8 @@ img {
 }
 
 .toplink {
-  position: relative;
-  left: 55rem;
+  position: absolute;
+  right: 10%;
   font-size: 40px;
 }
 
@@ -725,8 +725,8 @@ img {
 }
 
 .tel {
-  position: relative;
-  left: 20rem;
+  position: absolute;
+  right: 46%;
 }
 
 * {

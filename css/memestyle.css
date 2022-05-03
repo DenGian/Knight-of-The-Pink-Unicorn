@@ -627,7 +627,7 @@
   background-color: transparent;
 }
 
-#footer {
+footer {
   display: flex;
   align-items: center;
   width: 100%;
@@ -635,8 +635,8 @@
 }
 
 .toplink {
-  position: relative;
-  left: 55rem;
+  position: absolute;
+  right: 10%;
   font-size: 40px;
 }
 
@@ -646,8 +646,8 @@
 }
 
 .tel {
-  position: relative;
-  left: 20rem;
+  position: absolute;
+  right: 46%;
 }
 
 body {
