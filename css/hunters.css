@@ -11,7 +11,7 @@ body, html {
 }
 
 .back01 {
-  background-image: url("../Images/hunter.jpg");
+  background-image: url("../images/hunter.jpg");
   min-height: 100%;
   position: relative;
   background-attachment: fixed;
@@ -22,7 +22,7 @@ body, html {
 }
 
 .back02 {
-  background-image: url("../Images/hunters.jpeg");
+  background-image: url("../images/hunters.jpeg");
   min-height: 400px;
   position: relative;
   background-attachment: fixed;
@@ -32,7 +32,7 @@ body, html {
 }
 
 .back03 {
-  background-image: url("../Images/jumpscare.jpg");
+  background-image: url("../images/jumpscare.jpg");
   min-height: 500px;
   position: relative;
   background-attachment: fixed;
